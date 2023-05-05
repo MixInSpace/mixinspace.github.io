@@ -5,7 +5,6 @@
 }
 
 header {
-  background-color: #231942;
   height: 100vh;
 }
 
@@ -13,58 +12,6 @@ header {
   max-width: 1200px;
   width: 90%;
   margin: auto;
-}
-
-/* <<<<........Navbar.......>>>> */
-
-.navbar {
-  background-color: #5e548e;
-  margin: auto;
-  width: 60%;
-  height: auto;
-  padding: 10px;
-  border-radius: 0px 0px 64px 64px;
-}
-
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 64px;
-}
-
-.navbar-brand a{
-  text-decoration: none;
-  color: #f0f0e6;
-  font-size: 1.25rem;
-}
-
-.menu-items {
-  display: flex;
-}
-
-.menu-items li {
-  list-style: none;
-  padding: 1rem;
-}
-
-.menu-items a {
-  text-decoration: none;
-  color: #f0f0e6;
-  font-size: 1.2rem;
-  padding: 0.3rem;
-}
-
-.menu-items a:hover {
-  background-color: #231942;
-  border-radius: 5px;
-  border-bottom: 2px solid #f0f0e6;
-}
-
-.navbar .logo {
-  order: 1;
-  color: #f0f0e6;
-  font-size: 2rem;
 }
 
 /* <<<<........Home Content........>>>> */
@@ -80,13 +27,13 @@ header {
 }
 
 .home-content .name h1 {
-  font-size: 60pt;
+  font-size: 90pt;
   text-align: center;
 }
 
 .home-content .name p {
   color: #f0f0e6;
-  font-size: 1.5rem;
+  font-size: 24pt;
 }
 
 .angle-down-icon {
@@ -104,5 +51,3 @@ header {
   color: #07374a;
   padding: 1rem;
 }
-
-/* ////........About Me........//// */
