@@ -27,13 +27,13 @@ header {
 }
 
 .home-content .name h1 {
-  font-size: 90pt;
+  font-size: 9rem;
   text-align: center;
 }
 
 .home-content .name p {
   color: #f0f0e6;
-  font-size: 24pt;
+  font-size: 2rem;
 }
 
 .angle-down-icon {
