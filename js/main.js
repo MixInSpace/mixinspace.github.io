@@ -11,3 +11,11 @@ document.addEventListener('mousemove', (ev) => {
 document.addEventListener('mouseleave', (ev) => {
   document.body.style.backgroundColor = backgroundColor;
 });
+
+document.addEventListener('click', (ev) => {
+    document.body.style.backgroundColor = 'rgba(255,255,255,1)'
+});
+
+document.addEventListener('keydown', (ev) => {
+    alert(ev.key)
+});
